@@ -1,0 +1,93 @@
+name: planty_connect
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+  # api calling
+  http: ^0.13.4
+
+  # MMVM architecture
+  stacked: ^2.3.3
+
+  # state management
+  get: ^4.6.1
+  rxdart: ^0.27.3
+
+  build_runner: ^2.1.10
+
+
+  # firebase
+
+  firebase_core: ^1.15.0
+  firebase_messaging: ^11.2.15
+  firebase_storage: ^10.2.14
+  cloud_firestore: ^3.1.13
+  firebase_auth: ^3.3.16
+
+  # local push notification
+  flutter_local_notifications: ^9.4.1
+
+  # screen & app util
+  flutter_screenutil: ^5.5.1
+  intl: ^0.17.0
+
+  # image & doc picker
+
+  image_picker: ^0.8.5
+  file_picker: ^3.0.3
+  photo_manager: ^1.2.9
+  media_picker: ^1.3.5
+  flutter_absolute_path: ^1.0.6
+
+  # path prover
+  path_provider: ^2.0.9
+
+  # permission handler
+  permission_handler: ^10.2.0
+
+  # open file from chat
+  open_file: ^3.2.1
+
+  # download and cache image
+  cached_network_image: ^3.2.0
+
+  # generate http link and launch
+  flutter_linkify: ^5.0.2
+  url_launcher: ^6.0.20
+
+  # chat pagination
+  paginate_firestore: ^1.0.3+1
+
+  # for video calling
+  agora_rtc_engine: ^5.0.1
+  provider: ^6.0.2
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/font/Nunito-Bold.ttf
+        - asset: assets/font/Nunito-ExtraBold.ttf
+          weight: 900
+        - asset: assets/font/Nunito-Regular.ttf
+        - asset: assets/font/Nunito-SemiBold.ttf
+          weight: 500

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "256754941473",
+    "project_id": "planty-connect",
+    "storage_bucket": "planty-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256754941473:android:f1cfbe43858a9295872d60",
+        "android_client_info": {
+          "package_name": "com.ps.plantyconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256754941473-4e2fujpkg13v6nmm09e79s9ikeclmoua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ps.plantyconnect",
+            "certificate_hash": "84efba5bc100a55a17717b09f8d776f12a9a32d0"
+          }
+        },
+        {
+          "client_id": "256754941473-dvrdvqiqvmea12c1d6n9loascv8913ic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVrIg76UjXu0XiMRntqRDl7QkwLvBtZC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256754941473-dvrdvqiqvmea12c1d6n9loascv8913ic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
